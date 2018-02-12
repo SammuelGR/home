@@ -14,9 +14,37 @@ a, li{
   list-style-type: none;
 }
 
+#wip{
+  max-width: 100px;
+  max-height: 100px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -50px;
+}
+
 #page-title{
   text-align: center;
   color: white;
-  padding: 15%;
-  font-size: 7vh;
+  padding: 8%;
+  margin: 0;
+  font-size: 6vh;
+}
+
+.sites{
+  width: 30%;
+  height: auto;
+  margin: 1vh;
+  border: inset 2px red;
+  display: inline-block;
+}
+
+.sites img{
+  width: 100%;
+  display: inline-block;
+}
+
+.sites a{
+  margin: 0;
+  padding: 0;
 }
