@@ -39,8 +39,8 @@ a, li{
 .site{
   width: 40%;
   height: auto;
-  margin: 1vh 5vh;
-  display: inline-block;
+  margin: 1vh auto;
+  display: block;
 }
 
 .site a{
