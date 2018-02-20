@@ -34,13 +34,14 @@ a, li{
   width: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .site{
   width: 40%;
   height: auto;
-  margin: 1vh auto;
-  display: block;
+  margin: 1vh 4vh;
+  display: inline-block;
 }
 
 .site a{
