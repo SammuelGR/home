@@ -1,7 +1,7 @@
 body, html{
   height: 100%;
   margin: 0;
-}
+ }
 
 body{
   background-image: linear-gradient(180deg, #6b1919 15%, #923232 30%, #c7bcbc);
@@ -15,36 +15,45 @@ a, li{
 }
 
 #wip{
+  display: block;
   max-width: 100px;
   max-height: 100px;
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  margin-left: -50px;
+  margin: 5vh auto;
+  margin-bottom: 1vh;
 }
 
 #page-title{
   text-align: center;
   color: white;
-  padding: 8%;
+  padding: 2% 4%;
   margin: 0;
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 .sites{
-  width: 30%;
-  height: auto;
-  margin: 1vh;
-  border: inset 2px red;
-  display: inline-block;
-}
-
-.sites img{
   width: 100%;
-  display: inline-block;
-}
-
-.sites a{
   margin: 0;
   padding: 0;
+}
+
+.site{
+  width: 40%;
+  height: auto;
+  margin: 1vh 5vh;
+  display: inline-block;
+}
+
+.site a{
+  margin: 0;
+  padding: 0;
+}
+
+.site img{
+  width: 100%;
+  display: inline-block;
+  border: inset 2px red;
+}
+
+.site img:hover{
+  border: outset 2px red;
 }
