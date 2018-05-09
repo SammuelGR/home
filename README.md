@@ -4,12 +4,12 @@ https://leummasgr.github.io/home/index.html
 
 
 
-Usarei esse site pra testar meus conhecimentos em web e misturar com minha paixão pela música!
+Neste site eu irei testar meus conhecimentos em programação e explorar minhas habilidades na música.
 
 
 
-No futuro eu adicionarei alguns jogos simples pra dar conteúdo pro site e pretendo fazer um jogo principal usando o Phaser.
+Atualmente ele possui alguns links para outros sites que eu fiz ou ajudei a fazer e links para contato. Futuramente pretendo fazer um jogo usando Phaser.
 
-Também quero incluir uma área voltada só pra música, onde terá uma lista com todos os nomes (que eu lembrar) de artistas que eu admiro e principalmente, quero por vídeos/áudios meus tocando covers e quem sabe até músicas autorais!
+Também estou com umas ideias de gravar vários covers e adicionar aqui no site ainda esse ano. 
 
-Por enquanto o site está 100% vanilla, mas logo logo eu usarei jQuery e alguma framework pra ajudar no CSS!
+Por enquanto o site está 100% vanilla, mas logo logo eu usarei jQuery e alguma framework pra ajudar no CSS.
