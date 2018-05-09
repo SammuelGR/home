@@ -1,40 +1,80 @@
 body, html{
   height: 100%;
   margin: 0;
+  padding: 0;
  }
-
-body{
-  background-image: linear-gradient(180deg, #6b1919 15%, #923232 30%, #c7bcbc);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 a, li{
   text-decoration: none;
   list-style-type: none;
 }
 
+#header{
+  background-image: url('../imgs/jimi-hendrix.jpg');
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#header nav a{
+  padding: 1vh;
+  font-size:2em;
+  font-weight: 400;
+  color: #babaca;
+  text-shadow: 1px 1px 2px #4a4a67;
+}
+
+#header nav a:hover{
+  color: #8686f3;
+  text-shadow: 1px 1px 2px #81819c;
+}
+
 #wip{
-  display: block;
   max-width: 100px;
   max-height: 100px;
-  margin: 5vh auto;
+  margin: 5vh 0;
   margin-bottom: 1vh;
-}
+  position: absolute;
+  top: 5vh;
+  left: 1em;
+} /*m.q.: -tamanho;*/
 
 #page-title{
   text-align: center;
-  color: white;
+  margin-top: 70vh;
+  margin-bottom: 0;
+  color: cyan;
   padding: 2% 4%;
-  margin: 0;
   font-size: 5vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px black;
+} /*media queries: -fonte-size -margin-top; */
+
+/*#link-gh{
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  color: #4c41a0;
+  text-shadow: 1px 1px 3px #5f4d4d;
+  font-size: 3vh;
 }
 
-.sites{
+#link-gh:hover{
+  color:#6258ab;
+  text-shadow: 1px 1px 2px #6c60c5;
+}*/
+
+#sites{
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
+  background-image: linear-gradient(180deg, #6b1919 15%, #923232 30%, #c7bcbc);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-top: solid 2px black;
+  border-bottom: solid 1px #bd3232; 
 }
 
 .site{
@@ -57,4 +97,25 @@ a, li{
 
 .site img:hover{
   border: outset 2px red;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  background-color: #b9e6ea;
+}
+
+#footer a{
+  margin-right: 10px;
+  color: #0b545a;
+}
+
+#footer a img{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+#footer p{
+  margin: 0;
 }
