@@ -17,9 +17,10 @@ a, li{
 }
 
 #header nav a{
-  padding: 1vh;
+  padding: 2vh 5vw;
+  font-family: 'Raleway', sans-serif;
   font-size:2em;
-  font-weight: 400;
+  font-weight: 300;
   color: #babaca;
   text-shadow: 1px 1px 2px #4a4a67;
 }
@@ -32,48 +33,50 @@ a, li{
 #wip{
   max-width: 100px;
   max-height: 100px;
-  margin: 5vh 0;
-  margin-bottom: 1vh;
-  position: absolute;
-  top: 5vh;
-  left: 1em;
-} /*m.q.: -tamanho;*/
+  margin-left: -70vw;
+}
 
 #page-title{
   text-align: center;
   margin-top: 70vh;
   margin-bottom: 0;
-  color: cyan;
+  color: #e5ffff;
   padding: 2% 4%;
-  font-size: 5vh;
-  font-weight: 700;
+  font-size: 7vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   text-transform: uppercase;
-  text-shadow: 1px 1px 3px black;
-} /*media queries: -fonte-size -margin-top; */
+  text-shadow: 1px 1px 3px #e2ccff;
+} 
 
-/*#link-gh{
-  text-align: center;
-  margin: auto;
-  padding: 20px;
-  color: #4c41a0;
-  text-shadow: 1px 1px 3px #5f4d4d;
-  font-size: 3vh;
+#intro{
+  background-color: #5022dec7;
+  border-top: solid 2px black;
+  border-bottom: solid 2px #ff6800;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
-#link-gh:hover{
-  color:#6258ab;
-  text-shadow: 1px 1px 2px #6c60c5;
-}*/
+#intro_p{
+  background-color: #ececec;
+  border-radius: 10px;
+  font-family: 'Bitter', sans-serif;
+  font-size: 2.7vh;
+  color: #666;
+  padding: 1vh 2vw;
+  margin: 2vh 0;
+}
+
+#contato{
+  font-weight: 700;
+}
 
 #sites{
   width: 100%;
-  margin: 0;
-  padding: 0;
+  padding: 2vh 0;
   text-align: center;
-  background-image: linear-gradient(180deg, #6b1919 15%, #923232 30%, #c7bcbc);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  border-top: solid 2px black;
+  background-color: #f9b88b;
+
   border-bottom: solid 1px #bd3232; 
 }
 
@@ -118,4 +121,24 @@ a, li{
 
 #footer p{
   margin: 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+#intro_p {
+  font-size: 2.2vh;
+}
+
+#page-title {
+  margin-top: 45vh;
+  font-size: 4vh;
+}
+
+#wip {
+  max-width: 85px;
+  max-height: 85px;
+  margin-left: -70vw;
+}
+
 }
