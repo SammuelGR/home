@@ -19,7 +19,7 @@ a, li{
 #header nav a{
   padding: 2vh 5vw;
   font-family: 'Raleway', sans-serif;
-  font-size:2em;
+  font-size:5vh;
   font-weight: 300;
   color: #babaca;
   text-shadow: 1px 1px 2px #4a4a67;
@@ -67,8 +67,9 @@ a, li{
   margin: 2vh 0;
 }
 
-#contato{
+#link{
   font-weight: 700;
+  color: #551a8b;
 }
 
 #sites{
@@ -76,8 +77,7 @@ a, li{
   padding: 2vh 0;
   text-align: center;
   background-color: #f9b88b;
-
-  border-bottom: solid 1px #bd3232; 
+  border-bottom: solid 2px #14a2e2; 
 }
 
 .site{
@@ -100,6 +100,28 @@ a, li{
 
 .site img:hover{
   border: outset 2px red;
+}
+
+#apps{
+  background-color: #5bb1d8;
+}
+
+.app{
+  height: 50vh;
+  padding-top: 5vh;
+}
+
+.app img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 40vh;
+  width: auto;
+  border: outset 2px #babaca;
+}
+
+.app img:hover{
+  border: inset 2px #babaca;
 }
 
 #footer{
