@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+body {
+	background-color: #5bb1d8;
+}
+
+#header {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#header nav a {
+  margin: 2vh 5vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4vh;
+  font-weight: 300;
+  color: #FFF;
+  text-shadow: 1px 1px 2px #4a4a67;
+}
+
+#home:hover {
+  color: #8686f3;
+}
+
+#h-app:hover {
+  color: #9aefa9;
+}
+
+#temp {
+	text-align: center;
+	margin-top: 30vh;
+	font-size: 3vh;
+}
+
+@media only screen and (max-width: 768px) {
+
+#header nav a {
+  font-size: 5vw;
+}
+
+}

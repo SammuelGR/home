@@ -14,10 +14,11 @@ a, li{
   background-size: cover;
   text-align: center;
   min-height: 100vh;
+  padding-top: 10px;
 }
 
 #header nav a{
-  padding: 2vh 5vw;
+  margin: 2vh 5vw;
   font-family: 'Raleway', sans-serif;
   font-size:5vh;
   font-weight: 300;
@@ -38,7 +39,7 @@ a, li{
 
 #page-title{
   text-align: center;
-  margin-top: 70vh;
+  margin-top: 50vh;
   margin-bottom: 0;
   color: #e5ffff;
   padding: 2% 4%;
@@ -98,30 +99,69 @@ a, li{
   border: inset 2px red;
 }
 
-.site img:hover{
+.site img:hover {
   border: outset 2px red;
 }
 
-#apps{
+#apps {
   background-color: #5bb1d8;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+#apps a {
+  color: #004273;
+}
+
+#a-apps {
+  display: block;
+  padding: 10px 0 0 0;
+}
+
+#a-apps:hover {
+  color: #a748ff;
 }
 
 .app{
-  height: 50vh;
-  padding-top: 5vh;
+  display: inline-block;
+  height: 45vh;
+  padding: 3vh 5vh;
+  margin: 0.1vh 4vh;
+}
+
+#apps a:hover {
+  color: #cce9ff;
 }
 
 .app img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0.5vh auto;
   max-height: 40vh;
-  width: auto;
+}
+
+#app4 {
+  border: outset 2px #337ec6;
+}
+
+#app5 {
   border: outset 2px #babaca;
 }
 
-.app img:hover{
+#app6 {
+  border: outset 2px green;
+}
+
+#app4:hover{
+  border: inset 2px #337ec6;
+}
+
+#app5:hover{
   border: inset 2px #babaca;
+}
+
+#app6:hover{
+  border: inset 2px green;
 }
 
 #footer{
@@ -144,8 +184,6 @@ a, li{
 #footer p{
   margin: 0;
 }
-
-
 
 @media only screen and (max-width: 768px) {
 #intro_p {
