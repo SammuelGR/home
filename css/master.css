@@ -114,15 +114,6 @@ a, li{
   color: #004273;
 }
 
-#a-apps {
-  display: block;
-  padding: 10px 0 0 0;
-}
-
-#a-apps:hover {
-  color: #a748ff;
-}
-
 .app{
   display: inline-block;
   height: 45vh;
