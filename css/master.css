@@ -50,15 +50,33 @@ a, li{
   text-shadow: 1px 1px 3px #e2ccff;
 } 
 
-#intro{
-  background-color: #5022dec7;
+#sobreSite{
+  background-color: #5d5d5c;
   border-top: solid 2px black;
-  border-bottom: solid 2px #ff6800;
+  border-bottom: solid 2px #545250;
   padding-right: 10vw;
   padding-left: 10vw;
 }
 
-#intro_p{
+#sobre_site{
+  background-color: #ececec;
+  border-radius: 10px;
+  font-family: 'Bitter', sans-serif;
+  font-size: 2.7vh;
+  color: #666;
+  padding: 1vh 2vw;
+  margin: 2vh 0;
+}
+
+#sobreMim{
+  background-color: #062f4f;
+  border-top: solid 2px #07243a;
+  border-bottom: solid 2px #07243a;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+#sobre_mim{
   background-color: #ececec;
   border-radius: 10px;
   font-family: 'Bitter', sans-serif;
@@ -77,8 +95,8 @@ a, li{
   width: 100%;
   padding: 2vh 0;
   text-align: center;
-  background-color: #f9b88b;
-  border-bottom: solid 2px #14a2e2; 
+  background-color: #813772;
+  border-bottom: solid 2px #7d266c;
 }
 
 .site{
@@ -104,14 +122,18 @@ a, li{
 }
 
 #apps {
-  background-color: #5bb1d8;
+  background-color: #b82601;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
 #apps a {
-  color: #004273;
+  color: #FFF;
+}
+
+#apps a:hover {
+  color: #ffc2c2;
 }
 
 .app{
@@ -119,10 +141,6 @@ a, li{
   height: 45vh;
   padding: 3vh 5vh;
   margin: 0.1vh 4vh;
-}
-
-#apps a:hover {
-  color: #cce9ff;
 }
 
 .app img{
@@ -159,12 +177,12 @@ a, li{
   text-align: center;
   padding-top: 5px;
   padding-bottom: 2px;
-  background-color: #b9e6ea;
+  background-color: #429da5;
 }
 
 #footer a{
   margin-right: 10px;
-  color: #0b545a;
+  color: #082e31;
 }
 
 #footer a img{
