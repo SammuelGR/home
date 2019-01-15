@@ -1,56 +1,58 @@
-body, html{
+body,
+html {
   height: 100%;
   margin: 0;
   padding: 0;
- }
+}
 
-a, li{
+a,
+li {
   text-decoration: none;
   list-style-type: none;
 }
 
-#header{
-  background-image: url('../imgs/jimi-hendrix.jpg');
+#header {
+  background-image: url("../imgs/jimi-hendrix.jpg");
   background-size: cover;
   text-align: center;
   min-height: 100vh;
   padding-top: 10px;
 }
 
-#header nav a{
+#header nav a {
   margin: 2vh 5vw;
-  font-family: 'Raleway', sans-serif;
-  font-size:5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 5vh;
   font-weight: 300;
   color: #babaca;
   text-shadow: 1px 1px 2px #4a4a67;
 }
 
-#header nav a:hover{
+#header nav a:hover {
   color: #8686f3;
   text-shadow: 1px 1px 2px #81819c;
 }
 
-#wip{
+#wip {
   max-width: 100px;
   max-height: 100px;
   margin-left: -70vw;
 }
 
-#page-title{
+#page-title {
   text-align: center;
   margin-top: 50vh;
   margin-bottom: 0;
   color: #e5ffff;
   padding: 2% 4%;
   font-size: 7vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
   text-shadow: 1px 1px 3px #e2ccff;
-} 
+}
 
-#sobreSite{
+#sobreSite {
   background-color: #5d5d5c;
   border-top: solid 2px black;
   border-bottom: solid 2px #545250;
@@ -58,17 +60,17 @@ a, li{
   padding-left: 10vw;
 }
 
-#sobre_site{
+#sobre_site {
   background-color: #ececec;
   border-radius: 10px;
-  font-family: 'Bitter', sans-serif;
+  font-family: "Bitter", sans-serif;
   font-size: 2.7vh;
   color: #666;
   padding: 1vh 2vw;
   margin: 2vh 0;
 }
 
-#sobreMim{
+#sobreMim {
   background-color: #062f4f;
   border-top: solid 2px #07243a;
   border-bottom: solid 2px #07243a;
@@ -76,74 +78,44 @@ a, li{
   padding-left: 10vw;
 }
 
-#sobre_mim{
+#sobre_mim {
   background-color: #ececec;
   border-radius: 10px;
-  font-family: 'Bitter', sans-serif;
+  font-family: "Bitter", sans-serif;
   font-size: 2.7vh;
   color: #666;
   padding: 1vh 2vw;
   margin: 2vh 0;
 }
 
-#link{
+#link {
   font-weight: 700;
   color: #551a8b;
 }
 
-#sites{
-  width: 100%;
-  padding: 2vh 0;
-  text-align: center;
-  background-color: #813772;
-  border-bottom: solid 2px #7d266c;
-}
-
-.site{
-  width: 40%;
-  height: auto;
-  margin: 1vh 4vh;
-  display: inline-block;
-}
-
-.site a{
-  margin: 0;
-  padding: 0;
-}
-
-.site img{
-  width: 100%;
-  display: inline-block;
-  border: inset 2px red;
-}
-
-.site img:hover {
-  border: outset 2px red;
-}
-
 #apps {
   background-color: #b82601;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
 #apps a {
-  color: #FFF;
+  color: #fff;
 }
 
 #apps a:hover {
   color: #ffc2c2;
 }
 
-.app{
+.app {
   display: inline-block;
   height: 45vh;
   padding: 3vh 5vh;
   margin: 0.1vh 4vh;
 }
 
-.app img{
+.app img {
   display: block;
   margin: 0.5vh auto;
   max-height: 40vh;
@@ -161,53 +133,52 @@ a, li{
   border: outset 2px green;
 }
 
-#app4:hover{
+#app4:hover {
   border: inset 2px #337ec6;
 }
 
-#app5:hover{
+#app5:hover {
   border: inset 2px #babaca;
 }
 
-#app6:hover{
+#app6:hover {
   border: inset 2px green;
 }
 
-#footer{
+#footer {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 2px;
   background-color: #429da5;
 }
 
-#footer a{
+#footer a {
   margin-right: 10px;
   color: #082e31;
 }
 
-#footer a img{
+#footer a img {
   max-width: 30px;
   max-height: 30px;
 }
 
-#footer p{
+#footer p {
   margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
-#intro_p {
-  font-size: 2.2vh;
-}
+  #intro_p {
+    font-size: 2.2vh;
+  }
 
-#page-title {
-  margin-top: 45vh;
-  font-size: 4vh;
-}
+  #page-title {
+    margin-top: 45vh;
+    font-size: 4vh;
+  }
 
-#wip {
-  max-width: 85px;
-  max-height: 85px;
-  margin-left: -70vw;
-}
-
+  #wip {
+    max-width: 85px;
+    max-height: 85px;
+    margin-left: -70vw;
+  }
 }
