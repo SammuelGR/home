@@ -100,14 +100,6 @@ li {
   text-align: center;
 }
 
-#apps a {
-  color: #fff;
-}
-
-#apps a:hover {
-  color: #ffc2c2;
-}
-
 .app {
   display: inline-block;
   height: 45vh;
