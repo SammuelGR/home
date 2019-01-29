@@ -121,9 +121,9 @@ li {
   max-height: 40vh;
 }
 
-/* #app4 {
+#app4 {
   border: outset 2px #337ec6;
-} */
+}
 
 #app5 {
   border: outset 2px #babaca;
@@ -137,9 +137,9 @@ li {
   border: outset 2px #d50000;
 }
 
-/* #app4:hover {
+#app4:hover {
   border: inset 2px #337ec6;
-} */
+}
 
 #app5:hover {
   border: inset 2px #babaca;
