@@ -164,11 +164,12 @@ li {
 
 #footer p {
   margin: 0;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 768px) {
-  #intro_p {
-    font-size: 2.2vh;
+  #header nav a {
+    font-size: 3vh;
   }
 
   #page-title {
@@ -180,5 +181,15 @@ li {
     max-width: 85px;
     max-height: 85px;
     margin-left: -70vw;
+  }
+
+  #sobre_site {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #sobre_mim {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
